@@ -11,7 +11,7 @@ from csv import reader
 giong = 0 
 khac = 0
 
-with open('out1_RF.csv', 'r') as read:
+with open('out_SVM.csv', 'r') as read:
 	csv_reader = reader(read)
 	for row in csv_reader:
 		test = row[0].split("'")[0]
